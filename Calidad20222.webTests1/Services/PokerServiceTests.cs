@@ -20,7 +20,7 @@ namespace Calidad20222.web.Services.Tests
                    new Carta()
                    {
                        Numero = 7,
-                       Palo = "COCOS"
+                       Palo = "COCO"
                     },
                    new Carta()
                    {
@@ -54,7 +54,7 @@ namespace Calidad20222.web.Services.Tests
                    new Carta()
                    {
                        Numero = 4,
-                       Palo = "COCOS"
+                       Palo = "COCO"
                     },
                    new Carta()
                    {
@@ -88,7 +88,7 @@ namespace Calidad20222.web.Services.Tests
                    new Carta()
                    {
                        Numero = 8,
-                       Palo = "COCOS"
+                       Palo = "COCO"
                     },
                    new Carta()
                    {
@@ -114,5 +114,583 @@ namespace Calidad20222.web.Services.Tests
             };
             Assert.AreNotEqual("TRIO", cartaList);
         }
+        [TestMethod()]
+        public void GetJugadaTest04()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 1,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 2,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "TREBOL"
+                   },
+
+            };
+            Assert.AreNotEqual("ESCALERA", cartaList);
         }
+        [TestMethod()]
+        public void GetJugadaTest05()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 10,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 10,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "TREBOL"
+                   },
+
+            };
+            Assert.AreNotEqual("DOBLE", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest06()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 4,
+                       Palo = "COCOS"
+                    },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "COCO"
+                   },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 10,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("TRIO", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest07()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 7,
+                       Palo = "COCOS"
+                    },
+                   new Carta()
+                   {
+                        Numero = 13,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 13,
+                        Palo = "COCO"
+                   },
+                   new Carta()
+                   {
+                        Numero = 13,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("TRIO", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest08()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 3,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 6,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("POKER", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest09()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 12,
+                       Palo = "COCOS"
+                    },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 12,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 12,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 12,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("POKER", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest10()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 9,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 9,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 10,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 2,
+                        Palo = "TREBOL"
+                   },
+
+            };
+            Assert.AreNotEqual("DOBLE", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest11()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 5,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 8,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 1,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 7,
+                        Palo = "TREBOL"
+                   },
+
+            };
+            Assert.AreNotEqual("DOBLE", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest12()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 1,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 1,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 8,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 8,
+                        Palo = "COCO"
+                   },
+
+            };
+            Assert.AreNotEqual("DOBLE_PAREJA", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest13()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 10,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 10,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 1,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 9,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 1,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("DOBLE_PAREJA", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest14()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 7,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 7,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 13,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 12,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 12,
+                        Palo = "COCO"
+                   },
+
+            };
+            Assert.AreNotEqual("DOBLE_PAREJA", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest15()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 11,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 10,
+                        Palo = "COCO"
+                   },
+                   new Carta()
+                   {
+                        Numero = 1,
+                        Palo = "COCO"
+                   },
+                   new Carta()
+                   {
+                        Numero = 7,
+                        Palo = "COCO"
+                   },
+                   new Carta()
+                   {
+                        Numero = 13,
+                        Palo = "COCO"
+                   },
+
+            };
+            Assert.AreNotEqual("COLOR", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest16()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 13,
+                       Palo = "ESPADA"
+                    },
+                   new Carta()
+                   {
+                        Numero = 8,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 1,
+                        Palo = "ESPADA"
+                   },
+
+            };
+            Assert.AreNotEqual("COLOR", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest17()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 2,
+                       Palo = "TREBOL"
+                    },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 8,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 6,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 1,
+                        Palo = "TREBOL"
+                   },
+
+            };
+            Assert.AreNotEqual("COLOR", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest18()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 3,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 6,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 6,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 3,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("FULL", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest19()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 2,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 2,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 4,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("FULL", cartaList);
+        }
+        [TestMethod()]
+        public void GetJugadaTest20()
+        {
+            List<Carta> cartaList = new List<Carta>()
+            {
+                   new Carta()
+                   {
+                       Numero = 7,
+                       Palo = "COCO"
+                    },
+                   new Carta()
+                   {
+                        Numero = 7,
+                        Palo = "CORAZON"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "TREBOL"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "ESPADA"
+                   },
+                   new Carta()
+                   {
+                        Numero = 5,
+                        Palo = "CORAZON"
+                   },
+
+            };
+            Assert.AreNotEqual("FULL", cartaList);
+        }
+    }
 }
